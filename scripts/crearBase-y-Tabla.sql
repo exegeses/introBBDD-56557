@@ -18,4 +18,4 @@ CREATE TABLE billeteras
     nombre varchar(50) not null,
     precio float( 9, 2 ) not null,
     stock int not null
-)
+);
