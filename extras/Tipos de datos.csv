@@ -1,0 +1,11 @@
+Id,Numericos,Alfanumericos,Fecha
+1,int,char,date
+2,tinyint,varchar,datetime
+3,smallint,tinytext,time
+4,mediumint,smalltext,timestamp
+5,int,mediumtext,
+6,boolean,text,
+7,float,binary,
+8,double,blob,
+9,bit,text,
+10,decimal,enum,
