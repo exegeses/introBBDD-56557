@@ -1,6 +1,6 @@
 --  Modificaciones y bajas
 
--- FÓRMULA
+-- modificaciones FÓRMULA
 -- UPDATE nombreTabla
 --  SET nombreCampo = valor
 
@@ -14,3 +14,14 @@ UPDATE destinos
         idRegion = 9,
         destPrecio = 8250
     WHERE idDestino = 10;
+
+---
+-- bajas ( eliminar ) FÓRMULA
+-- DELETE FROM nombreTabla
+--   WHERE condicion
+
+DELETE FROM regiones
+    WHERE idRegion = 10;
+
+-- ver enlace
+-- https://www.youtube.com/watch?v=i_cVJgIz_Cs
