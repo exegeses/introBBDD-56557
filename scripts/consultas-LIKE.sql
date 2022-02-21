@@ -14,7 +14,6 @@ SELECT prdNombre, prdDescripcion, prdPrecio
 -- nombre, precio, marca, descripción
 -- dónde en la descripción contenga 'Altavoz'
 
-
 SELECT prdNombre, prdPrecio,prdDescripcion, mkNombre
     FROM productos
      JOIN marcas
